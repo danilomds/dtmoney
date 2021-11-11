@@ -12,7 +12,7 @@ createServer({
         {
           id: 1,
           title: 'Trasaction 1',
-          amount: 400, 
+          amount: 400,
           type: 'deposit',
           category: 'Food',
           createdAt: new Date()
@@ -21,7 +21,6 @@ createServer({
     })
   }
 })
-
 
 ReactDOM.render(
   <React.StrictMode>
